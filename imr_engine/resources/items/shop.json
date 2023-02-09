@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "item_id": 200001,
+      "price": 100,
+      "remain": 99
+    },
+    {
+      "item_id": 200003,
+      "price": 30,
+      "remain": 99
+    },
+    {
+      "item_id": 200004,
+      "price": 0,
+      "remain": 99
+    },
+    {
+      "item_id": 300004,
+      "price": 40,
+      "remain": 99
+    },
+    {
+      "item_id": 300005,
+      "price": 20,
+      "remain": 99
+    },
+    {
+      "item_id": 300002,
+      "price": 1000,
+      "remain": 5
+    },
+    {
+      "item_id": 300003,
+      "price": 50,
+      "remain": 99
+    },
+    {
+      "item_id": 300006,
+      "price": 100,
+      "remain": 99
+    }
+  ]
+}

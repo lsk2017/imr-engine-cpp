@@ -1,0 +1,228 @@
+{
+  "animations": [
+    {
+      "name": "knight",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.3,
+          "frames": [
+            "knight_m_idle_anim_f0",
+            "knight_m_idle_anim_f1",
+            "knight_m_idle_anim_f2",
+            "knight_m_idle_anim_f3"
+          ]
+        },
+        {
+          "name": "run",
+          "duration": 0.3,
+          "frames": [
+            "knight_m_run_anim_f0",
+            "knight_m_run_anim_f1",
+            "knight_m_run_anim_f2",
+            "knight_m_run_anim_f3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wizzard",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.3,
+          "frames": [
+            "wizzard_m_idle_anim_f0",
+            "wizzard_m_idle_anim_f1",
+            "wizzard_m_idle_anim_f2",
+            "wizzard_m_idle_anim_f3"
+          ]
+        },
+        {
+          "name": "run",
+          "duration": 0.3,
+          "frames": [
+            "wizzard_m_run_anim_f0",
+            "wizzard_m_run_anim_f1",
+            "wizzard_m_run_anim_f2",
+            "wizzard_m_run_anim_f3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.3,
+          "frames": [
+            "skelet_idle_anim_f0",
+            "skelet_idle_anim_f1",
+            "skelet_idle_anim_f2",
+            "skelet_idle_anim_f3"
+          ]
+        },
+        {
+          "name": "run",
+          "duration": 0.3,
+          "frames": [
+            "skelet_run_anim_f0",
+            "skelet_run_anim_f1",
+            "skelet_run_anim_f2",
+            "skelet_run_anim_f3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "goblin",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.3,
+          "frames": [
+            "goblin_idle_anim_f0",
+            "goblin_idle_anim_f1",
+            "goblin_idle_anim_f2",
+            "goblin_idle_anim_f3",
+          ]
+        },
+        {
+          "name": "run",
+          "duration": 0.3,
+          "frames": [
+            "goblin_run_anim_f0",
+            "goblin_run_anim_f1",
+            "goblin_run_anim_f2",
+            "goblin_run_anim_f3",
+          ]
+        }
+      ]
+    },
+    {
+      "name": "torchlight",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 1.0,
+          "frames": [
+            "torch_1",
+            "torch_2",
+            "torch_3",
+            "torch_4",
+            "torch_5",
+            "torch_6",
+            "torch_7",
+            "torch_8"
+          ]
+        },
+        {
+          "name": "run",
+          "duration": 1.0,
+          "frames": [
+            "torch_1",
+            "torch_2",
+            "torch_3",
+            "torch_4",
+            "torch_5",
+            "torch_6",
+            "torch_7",
+            "torch_8"
+          ]
+        },
+        {
+          "name": "off",
+          "duration": 0,
+          "frames": [ "torch_no_flame" ]
+        }
+      ]
+    },
+    {
+      "name": "footprint",
+      "actions": [
+        {
+          "name": "left",
+          "duration": 1.0,
+          "frames": [
+            "footprint1"
+          ]
+        },
+        {
+          "name": "right",
+          "duration": 1.0,
+          "frames": [
+            "footprint2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coin",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.5,
+          "frames": [
+            "coin_anim_f0",
+            "coin_anim_f1",
+            "coin_anim_f2",
+            "coin_anim_f3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "scroll",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.5,
+          "frames": [
+            "scroll"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "downstair",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 1.0,
+          "frames": [
+            "downstair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "upstair",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 1.0,
+          "frames": [
+            "upstair"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "portal",
+      "actions": [
+        {
+          "name": "idle",
+          "duration": 0.8,
+          "frames": [
+            "portal1",
+            "portal2",
+            "portal3",
+            "portal4",
+            "portal5"
+          ]
+        }
+      ]
+    }
+  ]
+}

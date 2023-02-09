@@ -1,0 +1,29 @@
+{
+    "model_name" : "knight level model", 
+    "levels" : [
+        {
+            "required_exp" : 0,
+            "strength" : 10,
+            "health" : 20,
+            "move_speed" : 150
+        },
+        {
+            "required_exp" : 10,
+            "strength" : 11,
+            "health" : 22,
+            "move_speed" : 152
+        },
+        {
+            "required_exp" : 25,
+            "strength" : 12,
+            "health" : 24,
+            "move_speed" : 154
+        },
+        {
+            "required_exp" : 50,
+            "strength" : 13,
+            "health" : 26,
+            "move_speed" : 156
+        }
+    ]
+}

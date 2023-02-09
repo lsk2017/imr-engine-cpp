@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "item_type": 1,
+      "id": 100001,
+      "name": "exp"
+    },
+    {
+      "item_type": 2,
+      "id": 100002,
+      "name": "gold",
+      "drop_animation": "coin"
+    },
+    {
+      "item_type": 3,
+      "id": 200001,
+      "value": 50,
+      "name": "healing potion",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 3,
+      "id": 200002,
+      "value": 10,
+      "name": "mana potion",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 3,
+      "id": 200003,
+      "value": 50,
+      "name": "worm protein block",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 3,
+      "id": 200004,
+      "value": 0,
+      "name": "portal scroll",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 200,
+      "id": 300001,
+      "name": "melee attack",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 200,
+      "id": 300002,
+      "name": "fire ball",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 200,
+      "id": 300003,
+      "name": "wall of fire",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 200,
+      "id": 300004,
+      "name": "ground of fire",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 200,
+      "id": 300005,
+      "name": "daybreak",
+      "drop_animation": "scroll"
+    },
+    {
+      "item_type": 200,
+      "id": 300006,
+      "name": "haste",
+      "drop_animation": "scroll"
+    }
+  ]
+}

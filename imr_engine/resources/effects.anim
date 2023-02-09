@@ -1,0 +1,76 @@
+{
+    "animations" : [
+        {
+            "name" : "fireball",
+            "actions" : [
+                {
+                    "name" : "fire",
+                    "duration" : 0.1,
+                    "frames" : [
+                        "fireball1", "fireball2"
+                    ]
+                }
+            ]
+        },
+      {
+        "name": "fireball_explode",
+        "actions": [
+          {
+            "name": "explode",
+            "duration": 0.3,
+            "frames": [
+              "fireball_explode1",
+              "fireball_explode2",
+              "fireball_explode3",
+              "fireball_explode4"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fireball2",
+        "actions": [
+          {
+            "name": "idle",
+            "duration": 0.5,
+            "frames": [
+              "fireball/1_0",
+              "fireball/1_1",
+              "fireball/1_2",
+              "fireball/1_3",
+              "fireball/1_4",
+              "fireball/1_5",
+              "fireball/1_6",
+              "fireball/1_7",
+              "fireball/1_8",
+              "fireball/1_9",
+              "fireball/1_10",
+              "fireball/1_11",
+              "fireball/1_12",
+              "fireball/1_13",
+              "fireball/1_14"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ground of fire",
+        "actions": [
+          {
+            "name": "idle",
+            "duration": 0.8,
+            "frames": [
+              "burning/0",
+              "burning/1",
+              "burning/2",
+              "burning/3",
+              "burning/4",
+              "burning/5",
+              "burning/6",
+              "burning/7"
+            ]
+          }
+        ]
+      }
+    ]
+}

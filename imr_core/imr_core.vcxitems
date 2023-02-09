@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{14719b8f-5d86-48f4-9b94-e0a64590da0d}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)animation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)imr_core.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)imr_text.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MaxRectsBinPack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Rect.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)tweeners.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MaxRectsBinPack.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Rect.cpp" />
+  </ItemGroup>
+</Project>

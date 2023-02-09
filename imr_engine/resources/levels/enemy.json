@@ -1,0 +1,67 @@
+{
+  "model_name": "enemy level model",
+  "levels": [
+    {
+      "required_exp": 0,
+      "strength": 10,
+      "health": 10,
+      "move_speed": 120,
+      "bag": [
+        {
+          "item_id": 100001,
+          "min": 4,
+          "max": 4,
+          "percent": 100
+        },
+        {
+          "item_id": 100002,
+          "min": 3,
+          "max": 4,
+          "percent": 30
+        },
+        {
+          "item_id": 300002,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        },
+        {
+          "item_id": 300003,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        },
+        {
+          "item_id": 300004,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        },
+        {
+          "item_id": 300005,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        },
+        {
+          "item_id": 300006,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        },
+        {
+          "item_id": 200001,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        },
+        {
+          "item_id": 200003,
+          "min": 1,
+          "max": 1,
+          "percent": 1
+        }
+      ]
+    }
+  ]
+}

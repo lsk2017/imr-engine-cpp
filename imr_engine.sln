@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imr_engine", "imr_engine\imr_engine.vcxproj", "{7C52AC5A-E03A-4039-8E1F-EF9913E18973}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "thirdparty\imgui\imgui.vcxproj", "{75AFD0F9-A48B-433D-AA25-077DDFC364F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imr_core", "imr_core\imr_core.vcxitems", "{14719B8F-5D86-48F4-9B94-E0A64590DA0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imr_core_opengl3", "imr_core_opengl3\imr_core_opengl3.vcxitems", "{1171C92A-A8B7-40B5-BB54-8A6749C887FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "thirdparty", "thirdparty", "{68718755-98D1-470C-A0C0-CE4EF9C94F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{F30EEC23-5723-4F0B-9D44-B860D6D75523}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imr_core_spine", "imr_core_spine\imr_core_spine.vcxitems", "{3E7E49B3-3769-46B7-B2FE-957071DC8530}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spine-cpp", "thirdparty\spine-cpp\spine-cpp.vcxproj", "{654CA8DA-04B9-4840-82C4-C5318DB18660}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imr_game", "imr_game\imr_game.vcxitems", "{02543092-5FDF-49D6-A02A-6E547954998A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Debug|x64.ActiveCfg = Debug|x64
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Debug|x64.Build.0 = Debug|x64
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Debug|x86.Build.0 = Debug|Win32
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Release|x64.ActiveCfg = Release|x64
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Release|x64.Build.0 = Release|x64
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Release|x86.ActiveCfg = Release|Win32
+		{7C52AC5A-E03A-4039-8E1F-EF9913E18973}.Release|x86.Build.0 = Release|Win32
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Debug|x64.ActiveCfg = Debug|x64
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Debug|x64.Build.0 = Debug|x64
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Debug|x86.Build.0 = Debug|Win32
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Release|x64.ActiveCfg = Release|x64
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Release|x64.Build.0 = Release|x64
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Release|x86.ActiveCfg = Release|Win32
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4}.Release|x86.Build.0 = Release|Win32
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Debug|x64.ActiveCfg = Debug|x64
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Debug|x64.Build.0 = Debug|x64
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Debug|x86.ActiveCfg = Debug|Win32
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Debug|x86.Build.0 = Debug|Win32
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Release|x64.ActiveCfg = Release|x64
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Release|x64.Build.0 = Release|x64
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Release|x86.ActiveCfg = Release|Win32
+		{654CA8DA-04B9-4840-82C4-C5318DB18660}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75AFD0F9-A48B-433D-AA25-077DDFC364F4} = {68718755-98D1-470C-A0C0-CE4EF9C94F9F}
+		{14719B8F-5D86-48F4-9B94-E0A64590DA0D} = {F30EEC23-5723-4F0B-9D44-B860D6D75523}
+		{1171C92A-A8B7-40B5-BB54-8A6749C887FF} = {F30EEC23-5723-4F0B-9D44-B860D6D75523}
+		{3E7E49B3-3769-46B7-B2FE-957071DC8530} = {F30EEC23-5723-4F0B-9D44-B860D6D75523}
+		{654CA8DA-04B9-4840-82C4-C5318DB18660} = {68718755-98D1-470C-A0C0-CE4EF9C94F9F}
+		{02543092-5FDF-49D6-A02A-6E547954998A} = {F30EEC23-5723-4F0B-9D44-B860D6D75523}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B01B0DAA-6461-4A01-BC2A-9307C9C691A2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		imr_game\imr_game.vcxitems*{02543092-5fdf-49d6-a02a-6e547954998a}*SharedItemsImports = 9
+		imr_core_opengl3\imr_core_opengl3.vcxitems*{1171c92a-a8b7-40b5-bb54-8a6749c887ff}*SharedItemsImports = 9
+		imr_core\imr_core.vcxitems*{14719b8f-5d86-48f4-9b94-e0a64590da0d}*SharedItemsImports = 9
+		imr_core_spine\imr_core_spine.vcxitems*{3e7e49b3-3769-46b7-b2fe-957071dc8530}*SharedItemsImports = 9
+		imr_core\imr_core.vcxitems*{7c52ac5a-e03a-4039-8e1f-ef9913e18973}*SharedItemsImports = 4
+		imr_core_opengl3\imr_core_opengl3.vcxitems*{7c52ac5a-e03a-4039-8e1f-ef9913e18973}*SharedItemsImports = 4
+		imr_core_spine\imr_core_spine.vcxitems*{7c52ac5a-e03a-4039-8e1f-ef9913e18973}*SharedItemsImports = 4
+		imr_game\imr_game.vcxitems*{7c52ac5a-e03a-4039-8e1f-ef9913e18973}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
